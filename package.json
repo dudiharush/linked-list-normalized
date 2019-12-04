@@ -1,10 +1,10 @@
 {
   "name": "linked-list-normalized",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "linked list in a normalized structure (refs by id)",
   "main": "linkedList.js",
   "scripts": {
-    "copy": "copyfiles package.json ./lib/",
+    "copy": "copyfiles README.md package.json ./lib/",
     "clean": "rimraf lib/*",
     "test": "jest",
     "type-check": "tsc --noEmit",
