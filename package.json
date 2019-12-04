@@ -2,15 +2,17 @@
   "name": "linked-list-normalized",
   "version": "1.0.8",
   "description": "linked list in a normalized structure (refs by id)",
+  "types": "lib/LinkedList.d.ts",
   "main": "lib/linkedList.js",
   "scripts": {
     "clean": "rimraf lib/*",
     "test": "jest",
     "type-check": "tsc",
+    "build:types": "tsc -p tsconfig.types-gen.json",
     "prepublish": "npm run build && npm version patch",
     "type-check:watch": "npm run type-check -- --watch",
     "compile": "babel src --out-dir lib --extensions .ts",
-    "build": "run-s clean compile"
+    "build": "run-s clean compile build:types"
   },
   "keywords": [
     "linked list normalized",

@@ -1,5 +1,21 @@
 import uuidv4 from "uuid/v4";
-import { NodeMap, Node } from "./types";
+
+interface NodeMetadata {
+  updatedAt: Date;
+}
+
+export type Node<T> = NodeMetadata & {
+  id: string;
+  data: T;
+  nextNodeId?: string;
+};
+
+export type NodeMap<T> = { [nodeId: string]: Node<T> };
+
+export interface LinkedListData<T> {
+  nodes: NodeMap<T>;
+  headId?: string;
+}
 
 export function fromDataArray<T>(dataArray: T[] = []) {
   let prevNodeId: string;
