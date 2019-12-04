@@ -1,6 +1,6 @@
 {
   "name": "linked-list-normalized",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "linked list in a normalized structure (refs by id)",
   "types": "lib/LinkedList.d.ts",
   "main": "lib/linkedList.js",
