@@ -2,14 +2,12 @@
   "name": "linked-list-normalized",
   "version": "1.0.6",
   "description": "linked list in a normalized structure (refs by id)",
-  "main": "linkedList.js",
+  "main": "lib/linkedList.js",
   "scripts": {
-    "copy": "copyfiles README.md package.json ./lib/",
     "clean": "rimraf lib/*",
     "test": "jest",
     "type-check": "tsc",
     "prepublish": "npm run build && npm version patch",
-    "publish": "npm-publish lib",
     "type-check:watch": "npm run type-check -- --watch",
     "compile": "babel src --out-dir lib --extensions .ts",
     "build": "run-s clean copy compile"
