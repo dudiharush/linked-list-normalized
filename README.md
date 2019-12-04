@@ -21,7 +21,7 @@ const linkedList = list.fromNodes(
     {id:3, data:3});
 ```
 
-<h5>linkedList API:</h5><br/>
+**linkedList API:**<br/>
 addNode<br/>
 removeNode<br/>
 moveNodeAfter<br/>
