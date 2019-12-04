@@ -7,7 +7,7 @@
     "copy": "copyfiles README.md package.json ./lib/",
     "clean": "rimraf lib/*",
     "test": "jest",
-    "type-check": "tsc --noEmit",
+    "type-check": "tsc",
     "prepublish": "npm run build && npm version patch",
     "type-check:watch": "npm run type-check -- --watch",
     "compile": "babel src --out-dir lib --extensions .ts",
