@@ -22,11 +22,11 @@ const linkedList = list.fromNodes(
 ```
 
 linkedList API:
-addNode
-removeNode
-moveNodeAfter
-moveNodeBefore
-getNodes
-getHeadId
-getTailId
+addNode<br/>
+removeNode<br/>
+moveNodeAfter<br/>
+moveNodeBefore<br/>
+getNodes<br/>
+getHeadId<br/>
+getTailId<br/>
 getLength
