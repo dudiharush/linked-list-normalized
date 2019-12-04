@@ -1,6 +1,11 @@
-import { fromNodes, fromDataArray } from "./linkedList";
+import {
+  fromNodes,
+  fromDataArray,
+  Node,
+  NodeMap,
+  LinkedListData
+} from "./linkedList";
 import faker from "faker";
-import { Node, NodeMap, LinkedListData } from "./types";
 
 export type VideoNodeData = { videoId: string };
 export type VideoNode = Node<VideoNodeData>;
