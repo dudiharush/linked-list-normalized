@@ -9,7 +9,7 @@
     "test": "jest",
     "type-check": "tsc",
     "prepublish": "npm run build && npm version patch",
-    "publish": "npm publish lib",
+    "publish": "npm-publish lib",
     "type-check:watch": "npm run type-check -- --watch",
     "compile": "babel src --out-dir lib --extensions .ts",
     "build": "run-s clean copy compile"
