@@ -19,6 +19,7 @@ const linkedList = list.fromNodes(
     {id:1, data:1, nextnodeId:2},
     {id:2, data:2, nextnodeId:3},
     {id:3, data:3});
+```
 
 linkedList API:
 addNode
@@ -29,4 +30,3 @@ getNodes
 getHeadId
 getTailId
 getLength
-```
