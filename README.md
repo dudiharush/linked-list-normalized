@@ -15,8 +15,10 @@ import list from 'linked-list-normalized';
 
 const linkedList = list.fromDataArray([1, 2, 3]);
 
-const linkedList = list.fromNodes({data:1, data:1, nextnodeId:2}, {id:2, data:2, nextnodeId:3}, {id:3, data:3}]);
-```
+const linkedList = list.fromNodes(
+    {id:1, data:1, nextnodeId:2},
+    {id:2, data:2, nextnodeId:3},
+    {id:3, data:3});
 
 linkedList API:
 addNode
@@ -27,3 +29,4 @@ getNodes
 getHeadId
 getTailId
 getLength
+```
