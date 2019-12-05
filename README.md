@@ -16,8 +16,8 @@ import list from 'linked-list-normalized';
 const linkedList = list.fromDataArray([1, 2, 3]);
 
 const linkedList = list.fromNodes(
-    {id:1, data:1, nextnodeId:2},
-    {id:2, data:2, nextnodeId:3},
+    {id:1, data:1, nextNodeId:2},
+    {id:2, data:2, nextNodeId:3},
     {id:3, data:3});
 ```
 
